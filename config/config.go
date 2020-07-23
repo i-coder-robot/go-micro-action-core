@@ -2,7 +2,7 @@ package config
 
 import (
 	m "github.com/i-coder-robot/go-micro-action-user/middleware"
-	PB "github.com/i-coder-robot/go-micro-action-user/user/proto/permission"
+	PB "github.com/i-coder-robot/go-micro-action-user/proto/permission"
 )
 
 // Config 配置
