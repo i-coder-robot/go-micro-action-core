@@ -19,5 +19,4 @@ func Call(ctx context.Context, service string, endpoint string, req interface{},
 	// Stream Close 关闭数据流
 	defer client.Stream.Close()
 	return nil
-
 }
