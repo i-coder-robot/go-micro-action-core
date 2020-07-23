@@ -17,6 +17,7 @@ func Call(ctx context.Context, service string, endpoint string, req interface{},
 		return err
 	}
 	// Stream Close 关闭数据流
-	defer client.Stream.Close()
+	// call调用完了，自动关闭stream
+	//defer client.Stream.Close()
 	return nil
 }
